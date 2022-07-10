@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+.top-bar {
+  background: #f2f2f2;
+  z-index: 100;
+  box-shadow: 0px 4px 5px rgba(37, 56, 95, 0.1);
+  padding: 20px;
+}
+.navbar_btn:hover {
+  color: #417dd6;
+  cursor: pointer;
+}
+.text03 {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  color: #417dd6;
+  display: inline;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+.linesicon {
+  margin-left: 9px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.profile {
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  margin-left: 8px;
+  border: 1.5px solid #417dd6;
+  vertical-align: middle;
+}
+.logout {
+  vertical-align: middle;
+  cursor: pointer;
+}
+.logout:hover {
+  color: "black";
+}
+#name {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #374253;
+  display: inline;
+  padding-left: 27px;
+}
+.language {
+  border: none;
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #596579;
+  background-color: #f2f2f2;
+  margin-left: 32px;
+  margin-right: 10px;
+}
+.topleft {
+  display: inline;
+  float: left;
+}
+.topright {
+  display: inline;
+  float: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .topright {
+    display: block;
+    float: left;
+  }
+  .top-bar {
+    height: 65px;
+    left: 9vw;
+  }
+}
+.dropdown-container {
+  display: inline;
+  cursor: pointer;
+}
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-container:hover .dropdown-content {
+  display: block;
+  margin-top: -20px;
+}
+
+.newhr {
+  color: gray !important;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: -75%;
+  box-shadow: 0px 2px 5px rgba(140, 140, 140, 0.2);
+  background-color: #fafafa;
+  padding: 7px 4px;
+  border-radius: 6px;
+
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #9c9c9c;
+}
+.btn-image:hover + .dropdown-content {
+  display: inline;
+}
+
+.links-in-dropdown {
+  padding: 4px 35px;
+  line-height: 30px;
+  border-radius: 6px;
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+}
+.links-in-dropdown:hover {
+  background-color: #f8f5f5;
+  color: #40a5bf;
+  box-shadow: 0px 1px 2px rgba(140, 140, 140, 0.2);
+}
+.btn-image {
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+.profile {
+  margin-right: 5px;
+}
+
+.icon_sidebar {
+  color: #a9a9a9;
+}

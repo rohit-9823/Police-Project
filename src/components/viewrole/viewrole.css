@@ -1,0 +1,32 @@
+#btn-select {
+  color: "red";
+}
+.buttons-line {
+  position: relative;
+  bottom: 20px;
+}
+.title{
+  font-family: Mukta;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #374253;
+  display: inline;
+}
+.details-roleview{
+  margin-top: 50px;
+  width: 81%;
+  padding-top: 20px;
+  position: absolute;
+  top: 55%;
+  background-color: aquamarine;
+  left: 17%;
+  /* z-index: -1; */
+}
+@media screen and (max-width:1200px) {
+  .details-roleview{
+      margin-left: 16%;
+      margin-top: 90px;
+      width: 65%;
+  }  
+}

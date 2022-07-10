@@ -1,0 +1,32 @@
+table {
+  /* border: none; */
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+.topic {
+  color: #596579;
+}
+th,
+td {
+  width: 20%;
+}
+.right {
+  float: left;
+  background: #f2f2f2;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+  padding: 16px;
+}
+.swal2-html-container {
+  margin: 0;
+  justify-content: left;
+  font-size: 16px;
+}
+.swal2-popup {
+  width: 45%;
+  font-family: "Mukta";
+  font-style: normal;
+}

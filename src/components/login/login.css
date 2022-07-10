@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+.body {
+  background-color: #25385f;
+  font-family: "Mukta", sans-serif;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+.logo {
+  height: 170px;
+  width: 170px;
+}
+.content {
+  width: 30%;
+  position: relative;
+  bottom: 30px;
+  margin: 5% auto;
+  margin-bottom: 0%;
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 30px;
+}
+.up {
+  text-align: center;
+  font-weight: 500;
+}
+.text1 {
+  color: #192638;
+  font-size: 20px;
+  line-height: 33px;
+  margin: 0%;
+}
+.text2 {
+  color: #25385f;
+  font-size: 32px;
+  line-height: 53px;
+  margin: 0%;
+}
+.text3 {
+  color: #374253;
+  font-size: 25px;
+  line-height: 26px;
+}
+.boxes {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #a7b2c3;
+  margin-top: 8px;
+}
+.boxes:focus-within {
+  border-left: 5px solid #417dd6;
+  transition: 0.5s;
+}
+.boxlabel {
+  display: block;
+  margin-top: 12px;
+  margin-left: 4%;
+}
+.inputbox {
+  border: 0px;
+  font-size: 18px;
+  width: 90%;
+  color: #417dd6;
+  margin-left: 3%;
+  height: 22px;
+  margin-bottom: 12px;
+}
+#errspan {
+  cursor: pointer;
+}
+.inputbox:focus {
+  outline: none;
+}
+label {
+  color: #374253;
+  font-size: 16px;
+}
+.check {
+  margin: 25px 0%;
+  margin-right: 8px;
+  accent-color: #25385f;
+  height: 14px;
+  width: 14px;
+}
+.button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background: #25385f;
+  border-radius: 2px;
+  font-size: 18px;
+}
+.login_btn {
+  cursor: pointer;
+}
+.forgotpassword {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin: 25px auto;
+}
+a:link {
+  text-decoration: none !important;
+  color: #374253;
+}
+a:visited {
+  text-decoration: none !important;
+  color: #374253;
+}
+.far {
+  margin-left: -30px;
+  cursor: pointer;
+}
+.languagelogin{
+  padding: 5px;
+  position: absolute;
+  right: 35px;
+  border: none;
+  background-color: lavender;
+}
+.login_content{
+  padding-bottom: 80px;
+}
+.login_btn{
+  border: none;
+}
+.gap-login{
+  margin: 25px;
+}

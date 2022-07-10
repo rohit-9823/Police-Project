@@ -1,0 +1,14 @@
+.wholepage{
+    display: flex;
+    flex-direction: row;
+    /* width: 100wv; */
+ 
+}
+body{
+    margin: 0;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
